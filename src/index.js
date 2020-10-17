@@ -1,4 +1,3 @@
-import './module'
 import './scss/index.scss'
 
-console.log('Webpack added in index.js');
+console.log('Webpack added in index.js')
