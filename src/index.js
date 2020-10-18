@@ -7,7 +7,7 @@ import { Table } from '@/components/table/Table'
 import './scss/index.scss'
 
 const excel = new Excel('#app', {
-  component: [
+  components: [
     Header,
     Toolbar,
     Formula,
@@ -15,4 +15,4 @@ const excel = new Excel('#app', {
   ],
 })
 
-console.log('Excel', excel)
+excel.render()
